@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Registrarse</title>
+</head>
+<body>
+    <form class="form" id="registrarForm" action="#" method="post">
+        <h1>Registrarse</h1>
+    <div class="contenedor">
+        <div class="input-contenedor">
+            <input type="text" placeholder="Nombre Completo" id="nomCompleto">
+        </div>
+        <div class="input-contenedor">
+            <input type="text" placeholder="Nombre Usuario" id="nomUsuario">
+        </div>
+        <div class="input-contenedor">
+            <input type="password" placeholder="Contraseña" id="contrasena">
+        </div>
+        <input type="submit" value="Registrarse" class="button" id="registrarseBtn">
+        <p>¿Ya tienes cuenta? <a class="link" href="index.html"> Iniciar Sesion</a></p>
+    </div> 
+    </form>
+    <div id="popup" class="popup">
+        <p>Registrado con éxito!</p>
+    </div>
+    <div id="popuperr" class="popuperr">
+        <p>Porfavor completa todos los campos!</p>
+    </div>
+    <script src="./assets/js/registrarse.js"></script>
+</body>
+</html>
